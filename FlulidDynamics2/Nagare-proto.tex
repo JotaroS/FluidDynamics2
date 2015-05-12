@@ -2,6 +2,7 @@
 
 \RequirePackage{titlesec}
 \usepackage{titlesec}
+\usepackage{amsmath,amssymb}
 \usepackage{euler}
 \usepackage{tcolorbox}
 \usepackage{picture}
@@ -9,7 +10,7 @@
 \usepackage{overpic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Jotaro-MACROS
-\newcommand{\strong}[1]{{\bf\color{violet} #1}}
+\newcommand{\strong}[1]{{\textbf{\color{violet} #1}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -102,27 +103,27 @@
 		\Delta M = m\left(u(0)-u(\lambda)\right) \label{eq:Momentum Variation1}
 	\end{equation}
 	ここで$u(-\lambda)$を$-\lambda$周りにTaylor展開\footnote{$f(x+\epsilon) = f(x) + f'(x)\epsilon + f''(x)\frac{\epsilon^2}{2!}...$\\}します．
-	\begin{eqnarray}
-		u(-\lambda) &=& u(0) -\lambda\frac{du}{dy} + o(\epsilon^2)\\
-		&\approx& u(0) -\lambda\frac{du}{dy} \label{eq:Taylor1}
-	\end{eqnarray}
+	\begin{align}
+		u(-\lambda) &= u(0) -\lambda\frac{du}{dy} + o(\epsilon^2)\\
+		&\approx u(0) -\lambda\frac{du}{dy} \label{eq:Taylor1}
+	\end{align}
 	式(\ref{eq:Momentum Variation1})に式(\ref{eq:Taylor1})を代入して
-	\begin{eqnarray}
+	\begin{equation}
 		\Delta M = -m\lambda\frac{du}{dy}
-	\end{eqnarray}
+	\end{equation}
 	が成り立ちます．ここで，流体に加わるせん断応力$\tau$は，分子の数密度・運動量変化・その点での分子の平均速度に比例します．
-	\begin{eqnarray}
-		\tau&\propto& \Delta MN\overline{u_m}\\
-		& = & m\lambda N\overline{u_m}\frac{du}{dy}
-	\end{eqnarray}
+	\begin{align}
+		\tau &\propto \Delta MN\overline{u_m}\\
+		&= m\lambda N\overline{u_m}\frac{du}{dy}
+	\end{align}
 	ここで，流体密度$\rho = mN$より，
-	\begin{eqnarray}
+	\begin{equation}
 		\tau \propto \rho\lambda\overline{u_m}\frac{du}{dy}
-	\end{eqnarray}
+	\end{equation}
 	が成り立っており，分子の平均速度をエネルギー等配分の法則に基づいて計算すると，
-	\begin{eqnarray}
+	\begin{equation}
 	\tau = \underbrace{\frac{\rho\lambda\overline{u_m}}{3}}_{\color{violet}{\mu = \rm{粘性係数}}}\frac{du}{dy}
-	\end{eqnarray}
+	\end{equation}
 	が成り立つことが知られています．このようなアプローチで流体中のせん断応力が速度勾配に比例するという性質，すなわち\strong{ニュートンの粘性法則}を導くことができます．また,このような性質を持つ流体は\strong{ニュートン流体}と呼ばれています．
 	\chapter{NAVIER STOKES wwww}
 	\section{流れ学第1の復習}
