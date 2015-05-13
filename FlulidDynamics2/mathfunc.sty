@@ -1,7 +1,11 @@
 % !TEX encoding = UTF-8 Unicode
 
 %%%%%%%%%%%% 基本 %%%%%%%%%%%%
+\ifdefined\（
+\renewcommand{\（}{\inhibitglue（}
+\else
 \newcommand{\（}{\inhibitglue（}
+\fi
 \newcommand{\）}{）\inhibitglue{}}
 \newcommand{\pr}[1]{\ensuremath{\mathopen{}\left(#1\right)\mathclose{}}}	% パーレン
 \newcommand{\cbr}[1]{\ensuremath{\mathopen{}\left\{#1\right\}\mathclose{}}}	% カーリーブラケット
