@@ -1,0 +1,51 @@
+% !TEX encoding = UTF-8 Unicode
+
+%%%%%%%%%%%% 基本 %%%%%%%%%%%%
+\newcommand{\（}{\inhibitglue（}
+\newcommand{\）}{）\inhibitglue{}}
+\newcommand{\pr}[1]{\ensuremath{\mathopen{}\left(#1\right)\mathclose{}}}	% パーレン
+\newcommand{\cbr}[1]{\ensuremath{\mathopen{}\left\{#1\right\}\mathclose{}}}	% カーリーブラケット
+\newcommand{\br}[1]{\ensuremath{\mathopen{}\left[#1\right]\mathclose{}}}	% ブラケット
+\newcommand{\an}[1]{\ensuremath{\mathopen{}\left\langle#1\right\rangle\mathclose{}}}
+\newcommand{\abs}[1]{\ensuremath{\mathopen{}\left|#1\right|\mathclose{}}}	% 絶対値
+\newcommand{\idint}[2]{\int{\! #2 \,d#1}}	% 不定積分
+\newcommand{\dint}[4]{\int_{#2}^{#3}{\!\! #4 \,d#1}}	% 定積分
+
+%%%%%%%%%%%% ベクトル・行列 %%%%%%%%%%%%
+\newcommand{\hvectwo}[2]{\pr{#1,\, #2}}	% 2次元横ベクトル
+\newcommand{\hvecthree}[3]{\pr{#1,\, #2,\, #3}}	% 3次元横ベクトル
+\newcommand{\hvecfour}[4]{\pr{#1,\, #2,\, #3,\, #4}}	% 4次元横ベクトル
+\newcommand{\vvectwo}[2]{\begin{pmatrix} #1 \\ #2 \end{pmatrix}}	% 2次元縦ベクトル
+\newcommand{\vvecthree}[3]{\begin{pmatrix} #1 \\ #2 \\ #3 \end{pmatrix}}	% 3次元縦ベクトル
+\newcommand{\vvecfour}[4]{\begin{pmatrix} #1 \\ #2 \\ #3 \\ #4 \end{pmatrix}}	% 4次元縦ベクトル
+\newcommand{\patrix}[1]{\begin{pmatrix} #1 \end{pmatrix}}	% ()
+\newcommand{\batrix}[1]{\begin{bmatrix} #1 \end{bmatrix}}	% []
+\newcommand{\vatrix}[1]{\begin{vmatrix} #1 \end{vmatrix}}	% ||
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\tr}[1]{#1^{\mathrm{T}}}
+\newcommand{\rank}{\mathop{\textrm{rank}}}
+
+%%%%%%%%%%%% 変換 %%%%%%%%%%%%
+\newcommand{\Fourier}[1]{\ensuremath{\mathcal{F}\br{#1}}}	% フーリエ変換
+\newcommand{\iFourier}[1]{\ensuremath{\mathcal{F}^{-1}\br{#1}}}	% フーリエ逆変換
+\newcommand{\Laplace}[1]{\ensuremath{\mathcal{L}\br{#1}}}	% ラプラス変換
+\newcommand{\iLaplace}[1]{\ensuremath{\mathcal{L}^{-1}\br{#1}}}	% ラプラス逆変換
+
+%%%%%%%%%%%% 単位 %%%%%%%%%%%%
+\newcommand{\celsius}{\ensuremath{{}^{\circ}\mathrm{C}}}
+
+%%%%%%%%%%%% 記号 %%%%%%%%%%%%
+\newcommand{\order}[1]{\ensuremath{\mathcal{O}\pr{#1}}}
+\newcommand{\dx}{\,dx}
+\newcommand{\dy}{\,dy}
+\newcommand{\dz}{\,dz}
+\newcommand{\dt}{\,dt}
+
+%%%%%%%%%%%% \thereforeの後に四分アキ %%%%%%%%%%%%
+\let\originaltherefore\therefore
+\renewcommand{\therefore}{\originaltherefore\quad}
+
+%%%%%%%%%%%% 数式番号の括弧を日本語フォントに %%%%%%%%%%%%
+\makeatletter
+\def\tagform@#1{\maketag@@@{\（\ignorespaces#1\unskip\@@italiccorr\）}}
+\makeatother
