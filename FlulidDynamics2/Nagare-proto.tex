@@ -101,12 +101,12 @@
 	\end{equation}
 	となり, 速度に応じた, いわゆる\strong{粘性抵抗}が働きます, 
 	
-	\subsubsection{ニュートンの粘性法則}
+	\subsubsection{\Newton}
 	流体中に，速度$u(y)$で動いている分子が衝突する際の運動量交換について調べてみます. 基準点と, 基準点から分子運動の平均行程$\lambda$だけ離れた点の, 質量$m$の分子の運動量変化は
 	\begin{equation}
 		\Delta M = m\pr{u\pr{0}-u\pr{\lambda}}. \label{eq:Momentum Variation1}
 	\end{equation}
-	ここで$u\pr{-\lambda}$を$\pr{-\lambda}$周りにテーラー展開\footnote{$f(x+\varepsilon) = f(x) + f'(x)\varepsilon + f''(x)\frac{\varepsilon^2}{2!}...$\\}します：
+	ここで$u\pr{-\lambda}$を$\pr{-\lambda}$周りに\Taylor{}\footnote{$f(x+\varepsilon) = f(x) + f'(x)\varepsilon + f''(x)\frac{\varepsilon^2}{2!}...$\\}します：
 	\begin{align}
 		u\pr{-\lambda} &= u\pr{0} -\lambda\frac{du}{dy} + \order{\varepsilon^2}\\
 		&\approx u\pr{0} -\lambda\frac{du}{dy}. \label{eq:Taylor1}
@@ -128,7 +128,7 @@
 	\begin{equation}
 	\tau = \underbrace{\frac{\rho\lambda\overline{u_m}}{3}}_{\color{violet}{\mu = \text{粘性係数}}}\frac{du}{dy}
 	\end{equation}
-	が成り立つことが知られています. このようなアプローチで流体中のせん断応力が速度勾配に比例するという性質, すなわち\strong{ニュートンの粘性法則}を導くことができます. また, このような性質を持つ流体は\strong{ニュートン流体}と呼ばれています.
+	が成り立つことが知られています. このようなアプローチで流体中のせん断応力が速度勾配に比例するという性質, すなわち\strong{\Newton{}}を導くことができます. また, このような性質を持つ流体は\strong{\NewtonianFluid{}}と呼ばれています.
 	\chapter{NAVIER STOKES wwww}
 	\section{流れ学第1の復習}
 	\subsection{流れ学第1との違い}

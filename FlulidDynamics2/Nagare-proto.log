@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  13 MAY 2015 12:51
+This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  13 MAY 2015 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,10 +720,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 11376 strings out of 493792
- 217880 string characters out of 6151492
- 271500 words of memory out of 5000000
- 14612 multiletter control sequences out of 15000+600000
+ 11379 strings out of 493792
+ 217906 string characters out of 6151492
+ 271529 words of memory out of 5000000
+ 14615 multiletter control sequences out of 15000+600000
  22375 words of font info for 109 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  54i,9n,73p,831b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
