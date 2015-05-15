@@ -1,0 +1,34 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[uplatex,a4j,twocolumn]{jsarticle}
+
+\usepackage{myreport}
+\renewcommand{\thefootnote}{*\arabic{footnote}}
+
+\begin{document}
+
+\title{\「流れ学第二\」試験対策委員会標準表記法}
+\author{ossan-arrow}
+\date{\today}
+\maketitle
+
+\section{文章}
+	\subsection{文体}
+		文体は常体を用いる.
+	\subsection{句読点}
+		文書において, 読点は半角カンマ, 句点は半角ピリオドを用いる. 句読点の後には, それぞれ2分アキを挿入する.
+	\subsection{ハイフン・ダッシュ・マイナス記号}
+		一単語を複数行に分けて書くとき, 英単語中に表れるとき, 電話番号・住所・型番等の数字を区切って表記するときにはハイフンを用いる.
+		
+		区間・範囲を表すときにはenダッシュを用いる.
+		
+		emダッシュは文書中では使用しない.
+		
+		時間の経過を表すときや, 説明・副題などを対で囲んで表すときには倍角ダッシュを用いる. ただし, 表示には\code{okumacro.sty}で定義されたものを使用する事とする.\footnote{ターミナルで\『\code{texdoc\char"20 okumacro}\』と入力すると, マニュアルを参照することができる. 他のパッケージについても同様.}
+\section{数式}
+	\subsection{句読点}
+		数式は概ね一つの文として扱う. つまり, 最後には句読点が付き物である. 複数の数式を並べて書くときには, 最後の数式以外にカンマを, 最後の数式にピリオドを打つ. その後に文が続く場合には句読点は必要無い. 文の後に数式が続き, かつその内容が連続している場合には, 文の最後に全角コロンを打つ.
+	\subsection{ベクトル}
+		ベクトルを文字で表記するときには, \code{\textbackslash{}bm}コマンドを使用する.
+
+\balance
+\end{document}
