@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.4.25)  16 MAY 2015 20:28
+This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.4.25)  16 MAY 2015 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,19 +877,45 @@ LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
 (Font)              scaled to size 7.39746pt on input line 26.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 26.
- [1
 
 
-]
-(./Fluid_Dynamics_II_notational_system.aux) ) 
+LaTeX Font Warning: Font shape `JT2/hgt/m/it' undefined
+(Font)              using `JT2/hgt/m/n' instead on input line 31.
+
+
+LaTeX Font Warning: Font shape `JY2/hgt/m/it' undefined
+(Font)              using `JY2/hgt/m/n' instead on input line 31.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 31.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+
+Overfull \vbox (3.30003pt too high) has occurred while \output is active []
+
+
+[1
+
+
+] (./Fluid_Dynamics_II_notational_system.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8511 strings out of 493792
- 117724 string characters out of 6151491
- 200367 words of memory out of 5000000
- 11865 multiletter control sequences out of 15000+600000
- 67828 words of font info for 143 fonts, out of 8000000 for 9000
+ 8518 strings out of 493792
+ 117834 string characters out of 6151491
+ 197367 words of memory out of 5000000
+ 11871 multiletter control sequences out of 15000+600000
+ 70613 words of font info for 144 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  42i,8n,74p,929b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Fluid_Dynamics_II_notational_system.dvi (1 page, 3728 bytes).
+Output written on Fluid_Dynamics_II_notational_system.dvi (1 page, 4148 bytes).
 
