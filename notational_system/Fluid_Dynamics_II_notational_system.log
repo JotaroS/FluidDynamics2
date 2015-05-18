@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  18 MAY 2015 08:56
+This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  18 MAY 2015 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,16 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \c@nprt@cntprint=\count122
 
 No configuration file `numprint.cfg' found.)
-(/usr/local/texlive/texmf-local/tex/latex/mystyle/mathfunc.sty)
+(/usr/local/texlive/texmf-local/tex/latex/mystyle/mathfunc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup11
+\symboldletters=\mathgroup12
+\symboldsymbols=\mathgroup13
+\symboldlargesymbols=\mathgroup14
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count123
 \lst@gtempboxa=\box44
@@ -684,60 +693,60 @@ LaTeX Info: Redefining \yen on input line 120.
 \EXAMPLEWIDTH=\dimen148
 \shaderule=\dimen149
 ))
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 7.
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 8.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 7.
+(Font)              scaled to size 10.0pt on input line 8.
 
 (./Fluid_Dynamics_II_notational_system.aux)
 \openout1 = `Fluid_Dynamics_II_notational_system.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 7.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 7.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 8.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 8.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 8.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 8.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (I search kanjifont definition file: . . )
 *geometry* driver: auto-detecting
@@ -778,120 +787,140 @@ LaTeX Font Info:    ... okay on input line 7.
 \c@mv@boldtabular=\count132
 \c@lstlisting=\count133
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 12.
+(Font)              scaled to size 15.9785pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 12.
+(Font)              scaled to size 15.9785pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 12.
+(Font)              scaled to size 17.28pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 12.
+(Font)              scaled to size 11.09619pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 12.
+(Font)              scaled to size 11.09619pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
+(Font)              scaled to size 12.0pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 12.
+(Font)              scaled to size 8.8pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 12.
+(Font)              scaled to size 6.6pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 8.1372pt on input line 12.
+(Font)              scaled to size 8.1372pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 6.1029pt on input line 12.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 12.
+(Font)              scaled to size 6.1029pt on input line 13.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 13.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 12.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 13.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 12.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 13.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 13.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 14.
+(Font)              scaled to size 11.09619pt on input line 15.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 14.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 14.
+(Font)              scaled to size 11.09619pt on input line 15.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 15.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 14.
+(Font)              scaled to size 10.79993pt on input line 15.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 15.
+(Font)              scaled to size 9.24683pt on input line 16.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 15.
+(Font)              scaled to size 9.24683pt on input line 16.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 15.
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 26.
+(Font)              scaled to size 8.99994pt on input line 16.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 27.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 26.
+(Font)              scaled to size 7.3pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 26.
+(Font)              scaled to size 5.5pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 6.75018pt on input line 26.
+(Font)              scaled to size 6.75018pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 5.08575pt on input line 26.
+(Font)              scaled to size 5.08575pt on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 7.3pt on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 5.5pt on input line 27.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 6.75018pt on input line 26.
+(Font)              scaled to size 6.75018pt on input line 27.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 26.
+(Font)              scaled to size 7.39746pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 26.
+(Font)              scaled to size 7.39746pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 26.
+(Font)              scaled to size 8.0pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 26.
+(Font)              scaled to size 6.2pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/hmc/m/n' will be
-(Font)              scaled to size 5.73302pt on input line 26.
+(Font)              scaled to size 5.73302pt on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 27.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.2pt on input line 27.
 LaTeX Font Info:    Font shape `JT2/hmc/m/n' will be
-(Font)              scaled to size 5.73302pt on input line 26.
+(Font)              scaled to size 5.73302pt on input line 27.
 LaTeX Font Info:    Font shape `JT2/hgt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 26.
+(Font)              scaled to size 7.39746pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/hgt/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 26.
+(Font)              scaled to size 7.39746pt on input line 27.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 26.
+(Font)              scaled to size 8.0pt on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 2
+9.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 29.
 
 
 LaTeX Font Warning: Font shape `JT2/hgt/m/it' undefined
-(Font)              using `JT2/hgt/m/n' instead on input line 31.
+(Font)              using `JT2/hgt/m/n' instead on input line 35.
 
 
 LaTeX Font Warning: Font shape `JY2/hgt/m/it' undefined
-(Font)              using `JY2/hgt/m/n' instead on input line 31.
+(Font)              using `JY2/hgt/m/n' instead on input line 35.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 31.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+(Font)              scaled to size 10.0pt on input line 35.
 
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
@@ -909,13 +938,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 8518 strings out of 493792
- 117834 string characters out of 6151492
- 197392 words of memory out of 5000000
- 11871 multiletter control sequences out of 15000+600000
- 70613 words of font info for 144 fonts, out of 8000000 for 9000
+ 8660 strings out of 493792
+ 119843 string characters out of 6151492
+ 200567 words of memory out of 5000000
+ 11998 multiletter control sequences out of 15000+600000
+ 102893 words of font info for 177 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 42i,8n,74p,929b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,74p,903b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Fluid_Dynamics_II_notational_system.dvi (1 page, 4656 bytes).
+Output written on Fluid_Dynamics_II_notational_system.dvi (1 page, 5996 bytes).
 

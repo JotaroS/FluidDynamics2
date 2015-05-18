@@ -9,7 +9,11 @@
 \else
 	\newcommand{\（}{\inhibitglue（}
 \fi
-\newcommand{\）}{）\inhibitglue{}}
+\ifdefined\）
+	\renewcommand{\）}{）\inhibitglue{}}
+\else
+	\newcommand{\）}{）\inhibitglue{}}
+\fi
 \newcommand{\pr}[1]{\ensuremath{\mathopen{}\left(#1\right)\mathclose{}}}	% パーレン
 \newcommand{\cbr}[1]{\ensuremath{\mathopen{}\left\{#1\right\}\mathclose{}}}	% カーリーブラケット
 \newcommand{\br}[1]{\ensuremath{\mathopen{}\left[#1\right]\mathclose{}}}	% ブラケット

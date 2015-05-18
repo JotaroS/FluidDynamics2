@@ -2,6 +2,7 @@
 \documentclass[uplatex,a4j,twocolumn]{jsarticle}
 
 \usepackage{myreport}
+\usepackage{mathfunc}
 \renewcommand{\thefootnote}{*\arabic{footnote}}
 
 \begin{document}
@@ -24,6 +25,9 @@
 		emダッシュは文書中では使用しない.
 		
 		時間の経過を表すときや, 説明・副題などを対で囲んで表すときには倍角ダッシュを用いる. ただし, 表示には\code{okumacro.sty}で定義されたものを使用する事とする.\footnote{ターミナルで\『\code{texdoc\char"20 okumacro}\』と入力すると, マニュアルを参照することができる. 他のパッケージについても同様.}
+		\begin{itemize}
+			\item コツメカワウソ\−−英語ではAsian short-clawed otterという\−−は体長41--\numprint[cm]{64}の小動物である.
+		\end{itemize}
 	\subsection{脚注}
 		単語や文に脚注を付ける場合, 単語の場合はその単語の直後, 文の場合はピリオドの直後に脚注記号を付す.
 \section{数式}
@@ -34,11 +38,21 @@
 	\subsection{単位}
 		単位の付いた物理量については, \code{numprint}パッケージを使用する事とする.
 	\subsection{ベクトル}
-		ベクトルを文字で表記するときには, \code{\BS{}bm}コマンドを使用する.
+		ベクトルを文字で表記するときには, \code{\BS{}bm}コマンドを使用する：
+		\begin{equation}
+			\bm{v} = \vvecthree{x}{y}{z}.
+		\end{equation}
+		成分表示については\code{mathfunc.sty}を参照されたい.
 	\subsection{行列}
-		行列は\code{\BS{}batrix}コマンドを使用する. これを用いることで, ブラケットで囲まれた行列が表現できる. 逆行列については\code{\BS{}inv}, 転置行列は\code{\BS{}tr}, 行列のランクは\code{\BS{}rank}コマンドを使用する.
+		行列は\code{\BS{}batrix}コマンドを使用する. これを用いることで, ブラケットで囲まれた行列が表現できる. 逆行列については\code{\BS{}inv}, 転置行列は\code{\BS{}tr}, 行列のランクは\code{\BS{}rank}コマンドを使用する. 単位行列は$I$とする. 例：
+		\begin{equation}
+			A \tr{A} = A \inv{A} = I = \patrix{1 & 0 \\ 0 & 1}.
+		\end{equation}
 		
-		行列式は\code{\BS{}vatrix}コマンドを使用する.
+		行列式は\code{\BS{}vatrix}コマンドを使用する：
+		\begin{equation}
+			\det{A} = \vatrix{\cos{\theta} & -\sin{\theta} \\ \sin{\theta} & \cos{\theta}} = \cos^2{\theta} + \sin^2{\theta} = 1.
+		\end{equation}
 	\subsection{テンソル}
 	\subsection{添え字}
 
