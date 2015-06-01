@@ -40,13 +40,13 @@
 	\subsection{ベクトル}
 		ベクトルを文字で表記するときには, \code{\BS{}bm}コマンドを使用する：
 		\begin{equation}
-			\bm{v} = \vvecthree{x}{y}{z}.
+			\bm{v} = \batrix{x \\ y \\ z}.
 		\end{equation}
 		成分表示については\code{mathfunc.sty}を参照されたい.
 	\subsection{行列}
 		行列は\code{\BS{}batrix}コマンドを使用する. これを用いることで, ブラケットで囲まれた行列が表現できる. 逆行列については\code{\BS{}inv}, 転置行列は\code{\BS{}tr}, 行列のランクは\code{\BS{}rank}コマンドを使用する. 単位行列は$I$とする. 例：
 		\begin{equation}
-			A \tr{A} = A \inv{A} = I = \patrix{1 & 0 \\ 0 & 1}.
+			A \tr{A} = A \inv{A} = I = \batrix{1 & 0 \\ 0 & 1}.
 		\end{equation}
 		
 		行列式は\code{\BS{}vatrix}コマンドを使用する：
