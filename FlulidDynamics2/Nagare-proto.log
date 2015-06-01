@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  2 JUN 2015 08:45
+This is e-upTeX, Version 3.14159265-p3.5-u1.11-130605-2.6 (utf8.uptex) (TeX Live 2014) (preloaded format=uplatex 2015.1.2)  2 JUN 2015 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,10 +955,10 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 Here is how much of TeX's memory you used:
  15874 strings out of 493792
  281835 string characters out of 6151492
- 309967 words of memory out of 5000000
+ 310038 words of memory out of 5000000
  19021 multiletter control sequences out of 15000+600000
  99191 words of font info for 156 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  54i,9n,73p,852b,991s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Nagare-proto.dvi (5 pages, 18428 bytes).
+Output written on Nagare-proto.dvi (5 pages, 19004 bytes).
