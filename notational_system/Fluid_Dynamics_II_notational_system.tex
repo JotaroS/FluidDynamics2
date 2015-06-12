@@ -35,6 +35,16 @@
 		数式は概ね一つの文として扱う. つまり, 最後には句読点が付き物である. 複数の数式を並べて書くときには, 最後の数式以外にカンマを, 最後の数式にピリオドを打つ. その後に文が続く場合には句読点は必要無い. 文の後に数式が続き, かつその内容が連続している場合には, 文の最後に\emph{全角}コロンを打つ.
 	\subsection{数式環境}
 		1行の数式には\code{equation}環境を, 複数行の数式には\code{align}環境を使用する. 行内の数式は\code{\$}で囲むものとする.
+	\subsection{数式番号}
+		\code{equation}環境や\code{align}環境を使用すれば, 自動的に数式番号が付与される：
+		\begin{equation}\label{eq:区分求積法}
+			\lim\limits_{n\to\infty}{\frac{1}{n} \sum_{k=1}^{n}{f\pr{\frac{k}{n}}}} = \dint{x}{0}{1}{f\pr{x}}.
+		\end{equation}
+		
+		読者の理解のため, 以前に登場した数式をそのまま出したい場合がある. そのときは, 以前の数式番号を参照した上で, 末尾に``revisited''を付ける：
+		\begin{equation}\tag{\ref{eq:区分求積法} revisited}
+			\lim\limits_{n\to\infty}{\frac{1}{n} \sum_{k=1}^{n}{f\pr{\frac{k}{n}}}} = \dint{x}{0}{1}{f\pr{x}}.
+		\end{equation}
 	\subsection{単位}
 		単位の付いた物理量については, \code{numprint}パッケージを使用する事とする.
 	\subsection{ベクトル}
